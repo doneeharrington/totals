@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">totalsApplication</string>
+
+    <!-- Home Page -->
+    <string name="home_page_add_button">Add</string>
+    <string name="swim_widget">Swim</string>
+    <string name="cycle_widget">Cycle</string>
+    <string name="run_widget">Run</string>
+    <string name="km">Km</string>
+
+    <!--Material Dialogs-->
+    <string name="distance_textview">Distance</string>
+    <string name="time_textview">Time</string>
+    <string name="submit">Submit</string>
+    <string name="cancel">Cancel</string>
+    <string name="add_run">Add Run</string>
+    <string name="add_cycle">Add Cycle</string>
+    <string name="add_swim">Add Swim</string>
+
+
+    <!--Realm Values-->
+    <string name="runDistance">0.0</string>
+    <string name="swimDistance">0.0</string>
+    <string name="cycleDistance">0.0</string>
+
+</resources>

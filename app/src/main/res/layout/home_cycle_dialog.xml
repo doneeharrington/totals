@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/cycleDistanceTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/distance_textview" />
+
+    <EditText
+        android:id="@+id/cycleDistanceEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/cycleDistanceTextView"
+        android:ems="10"
+        android:inputType="text|number" />
+
+    <TextView
+        android:id="@+id/cycleTimeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/cycleDistanceEditText"
+        android:layout_marginTop="17dp"
+        android:text="@string/time_textview" />
+
+    <EditText
+        android:id="@+id/cycleTimeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/cycleDistanceEditText"
+        android:layout_alignRight="@+id/cycleDistanceEditText"
+        android:layout_below="@+id/cycleTimeTextView"
+        android:ems="10"
+        android:inputType="number" />
+
+</RelativeLayout>

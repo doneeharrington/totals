@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/swimDistanceTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/distance_textview" />
+
+    <EditText
+        android:id="@+id/swimDistanceEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/swimDistanceTextView"
+        android:ems="10"
+        android:inputType="number"/>
+
+    <TextView
+        android:id="@+id/swimTimeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/swimDistanceEditText"
+        android:layout_marginTop="17dp"
+        android:text="@string/time_textview" />
+
+    <EditText
+        android:id="@+id/swimTimeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/swimDistanceEditText"
+        android:layout_alignRight="@+id/swimDistanceEditText"
+        android:layout_below="@+id/swimTimeTextView"
+        android:ems="10"
+        android:inputType="number" />
+
+</RelativeLayout>
